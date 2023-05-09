@@ -1,0 +1,9 @@
+ n        .header1{
+            background-color: rgb(205, 176, 176);
+            height: 500px;
+        }
+
+        .header2{
+            background-color: rgba(210, 85, 85, 0.526);
+            height: 100px;
+        }

@@ -1,0 +1,57 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: brown;
+    top: 0;
+}
+
+article{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(227, 197, 197);   
+    margin: 100px 500px 10px 500px; 
+    border: 15px solid rgb(150, 1, 1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(215, 157, 157);
+    border: 15px solid rgb(150, 1, 1);
+    border-radius: 8px;
+}
+
+.jorelArticle{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: center;
+}
